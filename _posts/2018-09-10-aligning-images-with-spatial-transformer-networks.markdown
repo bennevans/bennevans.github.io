@@ -7,7 +7,7 @@ To demonstrate the capabilities of the [Inverse Compositional Spatial Transforme
 
 # Dataset creation
 I created a dataset by taking 64x64 center crops from the [SceneNet dataset](https://robotvault.bitbucket.io/scenenet-rgbd.html)
- and generating a random warp to create 170k image-warp pairs. The noise parameter was set to 0.1 for training.
+ and generated a random warp to create 170k image-warp pairs. The noise parameter was set to 0.1 for training.
 
 Example images:
 
@@ -19,6 +19,8 @@ Example images:
 The network architecture is loosely based on VGG Net. The two images go through independent convolutional layers with shared parameters, join and go through shared convolutional layers, and finally through fully connected layers to predict the warp parameters.
 
 I train the network using the Adam optimizer with batch size 32, and an initial learning rate of 1e-3, decaying with a gamma of 0.75 every 20 epochs. Total training time is 100 epochs.
+
+Setting num_compositions to 1 (which reduces to a standard spatial transformer network) seemed to work best, although given more training time, the network might perform better with more compositions.
 
 Network architecture:
 
@@ -134,3 +136,4 @@ class AlignNetwork(nn.Module):
 ![epoch_loss](/assets/scenenet/epoch_loss.png)
 
 # Evaluation
+
