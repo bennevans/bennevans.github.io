@@ -5,7 +5,7 @@
 
 title: Ben Evans (WORK IN PROGRESS) # Website name
 baseurl: 'https://bennevans.github.io/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} Ben Evans' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -35,7 +35,7 @@ paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$, ._md$]
 permalinks:
   event: '/talk/:slug/'
   tags: '/tag/:slug/'

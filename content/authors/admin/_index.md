@@ -20,6 +20,7 @@ bio: My research interests include robot and reinforcement learning.
 interests:
 - Robot Learning
 - Reinforcement Learning
+- Directed Exploration
 
 # Education to show in About widget
 education:
@@ -29,7 +30,7 @@ education:
     year: 2020-present
   - course: BS/MS in Computer Science
     institution: University of Washington
-    year: 2020
+    year: 2015-2020
 
 
 # Social/Academic Networking
@@ -39,7 +40,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: '/contact'
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/justsomecsnerd
@@ -67,7 +68,9 @@ email: ""
 highlight_name: true
 ---
 
-Ben Evans is TODO
+I am a second-year PhD Student in the CILVR group advised by Lerrel Pinto. My interests include Robot and Reinforcement Learning to enable robots to sense, think, and act in unstructured environments.
+
+I completed my undergraduate degree in Computer Science at the University of Washington, working at first in the Robotics and State Estiation Lab with Arunkumar Byravan on video prediction, then in the Movement Control Lab with Kendall Lowrey and Aravind Rajeswaran on off-policy reinforcement learning and nonlinear model predictive control.
 
 <!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
