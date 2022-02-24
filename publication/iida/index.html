@@ -5,8 +5,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="Ben Evans">
-<meta name=description content="An example talk using Wowchemy's Markdown slides feature.">
-<link rel=alternate hreflang=en-us href=https://bennevans.github.io/talk/example-talk/>
+<meta name=description content="Understanding environment dynamics is necessary for robots to act safely and optimally in the world. In realistic scenarios, dynamics are non-stationary and the causal variables such as environment parameters cannot necessarily be precisely measured or inferred, even during training. We propose Implicit Identification for Dynamics Adaptation (IIDA), a simple method to allow predictive models to adapt to changing environment dynamics. IIDA assumes no access to the true variations in the world and instead implicitly infers properties of the environment from a small amount of contextual data. We demonstrate IIDA's ability to perform well in unseen environments through a suite of simulated experiments on MuJoCo environments and a real robot dynamic sliding task. In general, IIDA significantly reduces model error and results in higher task performance over commonly used methods.">
+<link rel=alternate hreflang=en-us href=https://bennevans.github.io/publication/iida/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <script src=/js/mathjax-config.js></script>
@@ -21,19 +21,19 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://bennevans.github.io/talk/example-talk/>
+<link rel=canonical href=https://bennevans.github.io/publication/iida/>
 <meta property="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="Ben Evans (WORK IN PROGRESS)">
-<meta property="og:url" content="https://bennevans.github.io/talk/example-talk/">
-<meta property="og:title" content="Example Talk | Ben Evans (WORK IN PROGRESS)">
-<meta property="og:description" content="An example talk using Wowchemy's Markdown slides feature."><meta property="og:image" content="https://bennevans.github.io/talk/example-talk/featured.jpg">
-<meta property="twitter:image" content="https://bennevans.github.io/talk/example-talk/featured.jpg"><meta property="og:locale" content="en-us">
+<meta property="og:url" content="https://bennevans.github.io/publication/iida/">
+<meta property="og:title" content="Context is Everything: Implicit Identification for Dynamics Adaptation | Ben Evans (WORK IN PROGRESS)">
+<meta property="og:description" content="Understanding environment dynamics is necessary for robots to act safely and optimally in the world. In realistic scenarios, dynamics are non-stationary and the causal variables such as environment parameters cannot necessarily be precisely measured or inferred, even during training. We propose Implicit Identification for Dynamics Adaptation (IIDA), a simple method to allow predictive models to adapt to changing environment dynamics. IIDA assumes no access to the true variations in the world and instead implicitly infers properties of the environment from a small amount of contextual data. We demonstrate IIDA's ability to perform well in unseen environments through a suite of simulated experiments on MuJoCo environments and a real robot dynamic sliding task. In general, IIDA significantly reduces model error and results in higher task performance over commonly used methods."><meta property="og:image" content="https://bennevans.github.io/publication/iida/featured.jpg">
+<meta property="twitter:image" content="https://bennevans.github.io/publication/iida/featured.jpg"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2017-01-01T00:00:00+00:00">
-<meta property="article:modified_time" content="2030-06-01T13:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Event","mainEntityOfPage":{"@type":"WebPage","@id":"https://bennevans.github.io/talk/example-talk/"},"name":"Example Talk","location":{"@type":"Place","name":"Wowchemy HQ","address":{"@type":"PostalAddress","streetAddress":"450 Serra Mall","addressLocality":"Stanford","postalCode":"94305","addressRegion":"CA","addressCountry":"United States"}},"image":["https://bennevans.github.io/talk/example-talk/featured.jpg"],"startDate":"2030-06-01T13:00:00Z","endDate":"2030-06-01T15:00:00Z","performer":{"@type":"Person","name":"Ben Evans"},"description":"An example talk using Wowchemy's Markdown slides feature."}</script>
-<title>Example Talk | Ben Evans (WORK IN PROGRESS)</title>
+<meta property="article:modified_time" content="2022-02-24T00:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://bennevans.github.io/publication/iida/"},"headline":"Context is Everything: Implicit Identification for Dynamics Adaptation","image":["https://bennevans.github.io/publication/iida/featured.jpg"],"datePublished":"2017-01-01T00:00:00Z","dateModified":"2022-02-24T00:00:00Z","author":{"@type":"Person","name":"Ben Evans"},"publisher":{"@type":"Organization","name":"Ben Evans (WORK IN PROGRESS)","logo":{"@type":"ImageObject","url":"https://bennevans.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"Understanding environment dynamics is necessary for robots to act safely and optimally in the world. In realistic scenarios, dynamics are non-stationary and the causal variables such as environment parameters cannot necessarily be precisely measured or inferred, even during training. We propose Implicit Identification for Dynamics Adaptation (IIDA), a simple method to allow predictive models to adapt to changing environment dynamics. IIDA assumes no access to the true variations in the world and instead implicitly infers properties of the environment from a small amount of contextual data. We demonstrate IIDA's ability to perform well in unseen environments through a suite of simulated experiments on MuJoCo environments and a real robot dynamic sliding task. In general, IIDA significantly reduces model error and results in higher task performance over commonly used methods."}</script>
+<title>Context is Everything: Implicit Identification for Dynamics Adaptation | Ben Evans (WORK IN PROGRESS)</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=a8edef490afe42206247b6ac05657af0>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=46a4df6af623248610c7df2a40af3eb5>
 <script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -108,49 +108,47 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>Example Talk</h1>
+<h1>Context is Everything: Implicit Identification for Dynamics Adaptation</h1>
 <div class=article-metadata>
+<div>
+<span class=author-highlighted>
+Ben Evans</span>, <span>
+Abitha Thankaraj</span>, <span>
+Lerrel Pinto</span>
+</div>
+<span class=article-date>
+February 2022
+</span>
 </div>
 <div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=/slides/example/ target=_blank>
-Slides
+<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/iida/cite.bib>
+Cite
 </a>
-<a class="btn btn-outline-primary btn-page-header" href=https://twitter.com/georgecushen target=_blank rel=noopener>
-<i class="fab fa-twitter mr-1"></i>
-Follow
+<a class="btn btn-outline-primary btn-page-header" href=https://github.com/bennevans/icra-iida target=_blank rel=noopener>
+Code
+</a>
+<a class="btn btn-outline-primary btn-page-header" href=/project/iida/>
+Project
 </a>
 </div>
 </div>
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:514px>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:480px>
 <div style=position:relative>
-<img src=/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q75_lanczos.jpg alt class=featured-image>
-<span class=article-header-caption>Image credit: <a href=https://unsplash.com/photos/bzdhc5b3Bxs><strong>Unsplash</strong></a></span>
+<img src=/publication/iida/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_720x0_resize_q75_lanczos.jpg alt class=featured-image>
+<span class=article-header-caption>Image credit: <a href=https://unsplash.com/photos/pLCdAaMFLTE><strong>Unsplash</strong></a></span>
 </div>
 </div>
 <div class=article-container>
 <h3>Abstract</h3>
-<p class=pub-abstract>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+<p class=pub-abstract>Understanding environment dynamics is necessary for robots to act safely and optimally in the world. In realistic scenarios, dynamics are non-stationary and the causal variables such as environment parameters cannot necessarily be precisely measured or inferred, even during training. We propose Implicit Identification for Dynamics Adaptation (IIDA), a simple method to allow predictive models to adapt to changing environment dynamics. IIDA assumes no access to the true variations in the world and instead implicitly infers properties of the environment from a small amount of contextual data. We demonstrate IIDA&rsquo;s ability to perform well in unseen environments through a suite of simulated experiments on MuJoCo environments and a real robot dynamic sliding task. In general, IIDA significantly reduces model error and results in higher task performance over commonly used methods.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
-<div class="col-12 col-md-3 pub-row-heading">Date</div>
+<div class="col-12 col-md-3 pub-row-heading">Type</div>
 <div class="col-12 col-md-9">
-Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-</div>
-</div>
-</div>
-<div class=col-md-1></div>
-</div>
-<div class="d-md-none space-below"></div>
-<div class=row>
-<div class=col-md-1></div>
-<div class=col-md-10>
-<div class=row>
-<div class="col-12 col-md-3 pub-row-heading">Event</div>
-<div class="col-12 col-md-9">
-<a href=https://example.org target=_blank rel=noopener>
-Wowchemy Conference
+<a href=/publication/#1>
+Conference paper
 </a>
 </div>
 </div>
@@ -162,59 +160,58 @@ Wowchemy Conference
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
-<div class="col-12 col-md-3 pub-row-heading">Location</div>
-<div class="col-12 col-md-9">Wowchemy HQ</div>
-<div class=col-md-3></div>
-<div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
+<div class="col-12 col-md-3 pub-row-heading">Publication</div>
+<div class="col-12 col-md-9">In <em>IEEE International Conference on Robotics and Automation</em></div>
 </div>
 </div>
 <div class=col-md-1></div>
 </div>
 <div class="d-md-none space-below"></div>
 <div class=space-below></div>
-<div class=article-style>
+<div class=article-style><div class="alert alert-note">
+<div>
+Click the <em>Cite</em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+</div>
+</div>
 <div class="alert alert-note">
 <div>
-Click on the <strong>Slides</strong> button above to view the built-in slides feature.
+Create your slides in Markdown - click the <em>Slides</em> button to check out the example.
 </div>
 </div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href=https://wowchemy.com/docs/managing-content/#create-slides target=_blank rel=noopener><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href=https://wowchemy.com/docs/writing-markdown-latex/ target=_blank rel=noopener>shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href=https://wowchemy.com/docs/writing-markdown-latex/ target=_blank rel=noopener>page elements</a> such as image galleries, can be added to the body of this page.</p>
+<p>Supplementary notes can be added here, including <a href=https://wowchemy.com/docs/writing-markdown-latex/ target=_blank rel=noopener>code, math, and images</a>.</p>
+</div>
+<div class=article-tags>
+<a class="badge badge-light" href=/tag/dynamics-adaptation/>Dynamics Adaptation</a>
 </div>
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://bennevans.github.io/talk/example-talk/&text=Example%20Talk" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://bennevans.github.io/publication/iida/&text=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://bennevans.github.io/talk/example-talk/&t=Example%20Talk" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://bennevans.github.io/publication/iida/&t=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=Example%20Talk&body=https://bennevans.github.io/talk/example-talk/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation&body=https://bennevans.github.io/publication/iida/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://bennevans.github.io/talk/example-talk/&title=Example%20Talk" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://bennevans.github.io/publication/iida/&title=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=Example%20Talk%20https://bennevans.github.io/talk/example-talk/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation%20https://bennevans.github.io/publication/iida/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://bennevans.github.io/talk/example-talk/&title=Example%20Talk" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://bennevans.github.io/publication/iida/&title=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
