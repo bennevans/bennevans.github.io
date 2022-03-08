@@ -45,10 +45,10 @@ featured: true
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/bennevans/icra-iida'
+url_code: 'https://github.com/bennevans/iida'
 url_dataset: ''
 url_poster: ''
-url_project: 'https://bennevans.github.io/icra-iida/'
+url_project: 'https://bennevans.github.io/iida/'
 url_slides: ''
 url_source: ''
 url_video: ''
