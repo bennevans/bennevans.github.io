@@ -44,7 +44,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/abs/2203.05549'
 url_code: 'https://github.com/bennevans/iida'
 url_dataset: 'https://drive.google.com/drive/folders/1mctP-a7eKtctrBviPyKnUjK-chhA4tij'
 url_poster: ''
