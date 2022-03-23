@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Ben Evans (WORK IN PROGRESS) # Website name
+title: Ben Evans # Website name
 baseurl: 'https://bennevans.github.io/' # Website URL
 copyright: '© {year} Ben Evans' # Footer text, e.g. '© {year} Me'
 
