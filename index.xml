@@ -9,7 +9,20 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Context is Everything: Implicit Identification for Dynamics Adaptation</title><link>https://bennevans.github.io/publication/iida/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://bennevans.github.io/publication/iida/</guid><description>&lt;!-- &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go"> &lt;span style="color:#a6e22e">A&lt;/span> &lt;span style="color:#a6e22e">bunch&lt;/span> &lt;span style="color:#a6e22e">of&lt;/span> &lt;span style="color:#a6e22e">code&lt;/span> &lt;span style="color:#a6e22e">here&lt;/span>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Dexterous Imitation Made Easy: A Learning-Based Framework for Efficient Dexterous Manipulation</title><link>https://bennevans.github.io/publication/dime/</link><pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate><guid>https://bennevans.github.io/publication/dime/</guid><description>&lt;!-- &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go"> &lt;span style="color:#a6e22e">A&lt;/span> &lt;span style="color:#a6e22e">bunch&lt;/span> &lt;span style="color:#a6e22e">of&lt;/span> &lt;span style="color:#a6e22e">code&lt;/span> &lt;span style="color:#a6e22e">here&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div> -->
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Context is Everything: Implicit Identification for Dynamics Adaptation</title><link>https://bennevans.github.io/publication/iida/</link><pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate><guid>https://bennevans.github.io/publication/iida/</guid><description>&lt;!-- &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go"> &lt;span style="color:#a6e22e">A&lt;/span> &lt;span style="color:#a6e22e">bunch&lt;/span> &lt;span style="color:#a6e22e">of&lt;/span> &lt;span style="color:#a6e22e">code&lt;/span> &lt;span style="color:#a6e22e">here&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div> -->
 &lt;!-- &lt;div class="alert alert-note">
 &lt;div>
