@@ -17,7 +17,7 @@ image:
 #   icon_pack: fab
 #   name: Follow
 #   url: https://twitter.com/georgecushen
-url_code: "https://github.com/bennevans/icra-iida"
+url_code: "https://github.com/bennevans/iida"
 url_pdf: ""
 url_slides: ""
 url_video: ""

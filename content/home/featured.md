@@ -36,5 +36,5 @@ design:
 ---
 
 {{% callout note %}}
- Search throgh all publications [here](./publication/).
+ Search through all publications [here](./publication/).
 {{% /callout %}}
