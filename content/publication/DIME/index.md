@@ -38,7 +38,7 @@ abstract: Optimizing behaviors for dexterous manipulation has been a longstandin
 tags: [Dexterous Manipulation]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
