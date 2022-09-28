@@ -6,7 +6,7 @@ title: Ben Evans
 superuser: true
 
 # Role/position/tagline
-role: 2nd Year PhD student
+role: 3rd Year PhD student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -70,7 +70,7 @@ highlight_name: true
 
 I am a second-year PhD Student in the CILVR group advised by Lerrel Pinto. My interests include Robot and Reinforcement Learning to enable robots to sense, think, and act in unstructured environments.
 
-I completed my undergraduate degree in Computer Science at the University of Washington, working at first in the Robotics and State Estiation Lab with Arunkumar Byravan on video prediction, then in the Movement Control Lab with Kendall Lowrey and Aravind Rajeswaran on off-policy reinforcement learning and nonlinear model predictive control.
+I completed my undergraduate degree in Computer Science at the University of Washington, working at first in the Robotics and State Estimation Lab with Arunkumar Byravan on video prediction, then in the Movement Control Lab with Kendall Lowrey and Aravind Rajeswaran on off-policy reinforcement learning and nonlinear model predictive control.
 
 <!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
