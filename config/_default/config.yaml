@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Ben Evans # Website name
-baseurl: 'https://bennevans.github.io/' # Website URL
+baseurl: 'https://benevans.zip/' # Website URL
 copyright: '© {year} Ben Evans' # Footer text, e.g. '© {year} Me'
 
 ############################
