@@ -1,5 +1,5 @@
 ---
-title: "Context is Everything: Implicit Identification for Dynamics Adaptation"
+title: "Dexterity from Touch: Self-Supervised Pre-Training of Tactile Representations with Robotic Play"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
