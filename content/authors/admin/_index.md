@@ -6,7 +6,7 @@ title: Ben Evans
 superuser: true
 
 # Role/position/tagline
-role: 3rd Year PhD student
+role: nth Year PhD student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -68,7 +68,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a second-year PhD Student in the CILVR group advised by Lerrel Pinto. My interests include Robot and Reinforcement Learning to enable robots to sense, think, and act in unstructured environments.
+I am an nth-year PhD Student in the CILVR group advised by Lerrel Pinto. My interests include Robot and Reinforcement Learning to enable robots to sense, think, and act in unstructured environments.
 
 I completed my undergraduate degree in Computer Science at the University of Washington, working at first in the Robotics and State Estimation Lab with Arunkumar Byravan on video prediction, then in the Movement Control Lab with Kendall Lowrey and Aravind Rajeswaran on off-policy reinforcement learning and nonlinear model predictive control.
 
