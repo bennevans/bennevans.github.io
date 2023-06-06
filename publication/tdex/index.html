@@ -5,8 +5,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="Ben Evans">
-<meta name=description content="Online learning via Bayes' theorem allows new data to be continuously integrated into an agent's current beliefs. However, a naive application of Bayesian methods in non-stationary environments leads to slow adaptation and results in state estimates that may converge confidently to the wrong parameter value. A common solution when learning in changing environments is to discard/downweight past data; however, this simple mechanism of &#34;forgetting&#34; fails to account for the fact that many real-world environments involve revisiting similar states. We propose a new framework, Bayes with Adaptive Memory (BAM), that takes advantage of past experience by allowing the agent to choose which past observations to remember and which to forget. We demonstrate that BAM generalizes many popular Bayesian update rules for non-stationary environments. Through a variety of experiments, we demonstrate the ability of BAM to continuously adapt in an ever-changing world.">
-<link rel=alternate hreflang=en-us href=https://bennevans.github.io/publication/bam/>
+<meta name=description content="Teaching dexterity to multi-fingered robots has been a longstanding challenge in robotics. Most prominent work in this area focuses on learning controllers or policies that either operate on visual observations or state estimates derived from vision. However, such methods perform poorly on fine-grained manipulation tasks that require reasoning about contact forces or about objects occluded by the hand itself. In this work, we present T-Dex, a new approach for tactile-based dexterity, that operates in two phases. In the first phase, we collect 2.5 hours of play data, which is used to train self-supervised tactile encoders. This is necessary to bring high-dimensional tactile readings to a lower-dimensional embedding. In the second phase, given a handful of demonstrations for a dexterous task, we learn non-parametric policies that combine the tactile observations with visual ones. Across five challenging dexterous tasks, we show that our tactile-based dexterity models outperform purely vision and torque-based models by an average of 1.7X. Finally, we provide a detailed analysis on factors critical to T-Dex including the importance of play data, architectures, and representation learning.">
+<link rel=alternate hreflang=en-us href=https://bennevans.github.io/publication/tdex/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <script src=/js/mathjax-config.js></script>
@@ -21,21 +21,21 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://bennevans.github.io/publication/bam/>
+<link rel=canonical href=https://bennevans.github.io/publication/tdex/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Ben Evans">
-<meta property="og:url" content="https://bennevans.github.io/publication/bam/">
-<meta property="og:title" content="BAM: Bayes with Adaptive Memory | Ben Evans">
-<meta property="og:description" content="Online learning via Bayes' theorem allows new data to be continuously integrated into an agent's current beliefs. However, a naive application of Bayesian methods in non-stationary environments leads to slow adaptation and results in state estimates that may converge confidently to the wrong parameter value. A common solution when learning in changing environments is to discard/downweight past data; however, this simple mechanism of &#34;forgetting&#34; fails to account for the fact that many real-world environments involve revisiting similar states. We propose a new framework, Bayes with Adaptive Memory (BAM), that takes advantage of past experience by allowing the agent to choose which past observations to remember and which to forget. We demonstrate that BAM generalizes many popular Bayesian update rules for non-stationary environments. Through a variety of experiments, we demonstrate the ability of BAM to continuously adapt in an ever-changing world."><meta property="og:image" content="https://bennevans.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://bennevans.github.io/publication/tdex/">
+<meta property="og:title" content="Context is Everything: Implicit Identification for Dynamics Adaptation | Ben Evans">
+<meta property="og:description" content="Teaching dexterity to multi-fingered robots has been a longstanding challenge in robotics. Most prominent work in this area focuses on learning controllers or policies that either operate on visual observations or state estimates derived from vision. However, such methods perform poorly on fine-grained manipulation tasks that require reasoning about contact forces or about objects occluded by the hand itself. In this work, we present T-Dex, a new approach for tactile-based dexterity, that operates in two phases. In the first phase, we collect 2.5 hours of play data, which is used to train self-supervised tactile encoders. This is necessary to bring high-dimensional tactile readings to a lower-dimensional embedding. In the second phase, given a handful of demonstrations for a dexterous task, we learn non-parametric policies that combine the tactile observations with visual ones. Across five challenging dexterous tasks, we show that our tactile-based dexterity models outperform purely vision and torque-based models by an average of 1.7X. Finally, we provide a detailed analysis on factors critical to T-Dex including the importance of play data, architectures, and representation learning."><meta property="og:image" content="https://bennevans.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://bennevans.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2017-01-01T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-02-04T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://bennevans.github.io/publication/bam/"},"headline":"BAM: Bayes with Adaptive Memory","datePublished":"2017-01-01T00:00:00Z","dateModified":"2022-02-04T00:00:00Z","author":{"@type":"Person","name":"Josue Nassar"},"publisher":{"@type":"Organization","name":"Ben Evans","logo":{"@type":"ImageObject","url":"https://bennevans.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"Online learning via Bayes' theorem allows new data to be continuously integrated into an agent's current beliefs. However, a naive application of Bayesian methods in non-stationary environments leads to slow adaptation and results in state estimates that may converge confidently to the wrong parameter value. A common solution when learning in changing environments is to discard/downweight past data; however, this simple mechanism of \"forgetting\" fails to account for the fact that many real-world environments involve revisiting similar states. We propose a new framework, Bayes with Adaptive Memory (BAM), that takes advantage of past experience by allowing the agent to choose which past observations to remember and which to forget. We demonstrate that BAM generalizes many popular Bayesian update rules for non-stationary environments. Through a variety of experiments, we demonstrate the ability of BAM to continuously adapt in an ever-changing world."}</script>
+<meta property="article:published_time" content="2023-06-01T00:00:00+00:00">
+<meta property="article:modified_time" content="2023-06-01T00:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://bennevans.github.io/publication/tdex/"},"headline":"Context is Everything: Implicit Identification for Dynamics Adaptation","datePublished":"2023-06-01T00:00:00Z","dateModified":"2023-06-01T00:00:00Z","author":{"@type":"Person","name":"Irmak Guzey"},"publisher":{"@type":"Organization","name":"Ben Evans","logo":{"@type":"ImageObject","url":"https://bennevans.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"Teaching dexterity to multi-fingered robots has been a longstanding challenge in robotics. Most prominent work in this area focuses on learning controllers or policies that either operate on visual observations or state estimates derived from vision. However, such methods perform poorly on fine-grained manipulation tasks that require reasoning about contact forces or about objects occluded by the hand itself. In this work, we present T-Dex, a new approach for tactile-based dexterity, that operates in two phases. In the first phase, we collect 2.5 hours of play data, which is used to train self-supervised tactile encoders. This is necessary to bring high-dimensional tactile readings to a lower-dimensional embedding. In the second phase, given a handful of demonstrations for a dexterous task, we learn non-parametric policies that combine the tactile observations with visual ones. Across five challenging dexterous tasks, we show that our tactile-based dexterity models outperform purely vision and torque-based models by an average of 1.7X. Finally, we provide a detailed analysis on factors critical to T-Dex including the importance of play data, architectures, and representation learning."}</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7M9VL744C3"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-7M9VL744C3')</script>
-<title>BAM: Bayes with Adaptive Memory | Ben Evans</title>
+<title>Context is Everything: Implicit Identification for Dynamics Adaptation | Ben Evans</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=53f518e73ea1ab6dd80a1cdb780c4b93>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=f120d76f3165c73a2e34897bcf6519b1>
 <script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -110,52 +110,53 @@
 <div class=page-body>
 <div class=pub>
 <div class="article-container pt-3">
-<h1>BAM: Bayes with Adaptive Memory</h1>
+<h1>Context is Everything: Implicit Identification for Dynamics Adaptation</h1>
 <div class=article-metadata>
 <div>
 <span>
-Josue Nassar</span>, <span>
-Jennifer Brennan</span>, <span class=author-highlighted>
+Irmak Guzey</span>, <span class=author-highlighted>
 Ben Evans</span>, <span>
-Kendall Lowrey</span>
+Soumith Chintala</span>, <span>
+Lerrel Pinto</span>
 </div>
 <span class=article-date>
-February 2022
+June 2023
 </span>
 </div>
 <div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=https://arxiv.org/abs/2202.02405 target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=https://arxiv.org/abs/2303.12076 target=_blank rel=noopener>
 PDF
 </a>
-<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/bam/cite.bib>
+<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/tdex/cite.bib>
 Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header" href=https://github.com/irmakguzey/tactile-dexterity target=_blank rel=noopener>
+Code
+</a>
+<a class="btn btn-outline-primary btn-page-header" href=https://drive.google.com/drive/folders/148ycBmuvqkdESvAhStlhYJ7ISMgelEvL target=_blank rel=noopener>
+Dataset
+</a>
+<a class="btn btn-outline-primary btn-page-header" href=https://tactile-dexterity.github.io/ target=_blank rel=noopener>
+Project
+</a>
+<a class="btn btn-outline-primary btn-page-header" href=https://youtu.be/lzJdVBe4lrI target=_blank rel=noopener>
+Video
 </a>
 </div>
 </div>
 <div class=article-container>
 <h3>Abstract</h3>
-<p class=pub-abstract>Online learning via Bayes' theorem allows new data to be continuously integrated into an agent&rsquo;s current beliefs. However, a naive application of Bayesian methods in non-stationary environments leads to slow adaptation and results in state estimates that may converge confidently to the wrong parameter value. A common solution when learning in changing environments is to discard/downweight past data; however, this simple mechanism of &ldquo;forgetting&rdquo; fails to account for the fact that many real-world environments involve revisiting similar states. We propose a new framework, Bayes with Adaptive Memory (BAM), that takes advantage of past experience by allowing the agent to choose which past observations to remember and which to forget. We demonstrate that BAM generalizes many popular Bayesian update rules for non-stationary environments. Through a variety of experiments, we demonstrate the ability of BAM to continuously adapt in an ever-changing world.</p>
+<p class=pub-abstract>Teaching dexterity to multi-fingered robots has been a longstanding challenge in robotics. Most prominent work in this area focuses on learning controllers or policies that either operate on visual observations or state estimates derived from vision. However, such methods perform poorly on fine-grained manipulation tasks that require reasoning about contact forces or about objects occluded by the hand itself. In this work, we present T-Dex, a new approach for tactile-based dexterity, that operates in two phases. In the first phase, we collect 2.5 hours of play data, which is used to train self-supervised tactile encoders. This is necessary to bring high-dimensional tactile readings to a lower-dimensional embedding. In the second phase, given a handful of demonstrations for a dexterous task, we learn non-parametric policies that combine the tactile observations with visual ones. Across five challenging dexterous tasks, we show that our tactile-based dexterity models outperform purely vision and torque-based models by an average of 1.7X. Finally, we provide a detailed analysis on factors critical to T-Dex including the importance of play data, architectures, and representation learning.</p>
 <div class=row>
 <div class=col-md-1></div>
 <div class=col-md-10>
 <div class=row>
 <div class="col-12 col-md-3 pub-row-heading">Type</div>
 <div class="col-12 col-md-9">
-<a href=/publication/#1>
-Conference paper
+<a href=/publication/#3>
+Preprint
 </a>
 </div>
-</div>
-</div>
-<div class=col-md-1></div>
-</div>
-<div class="d-md-none space-below"></div>
-<div class=row>
-<div class=col-md-1></div>
-<div class=col-md-10>
-<div class=row>
-<div class="col-12 col-md-3 pub-row-heading">Publication</div>
-<div class="col-12 col-md-9">In <em>International Conference on Learning Representations</em></div>
 </div>
 </div>
 <div class=col-md-1></div>
@@ -165,37 +166,37 @@ Conference paper
 <div class=article-style>
 </div>
 <div class=article-tags>
-<a class="badge badge-light" href=/tag/dynamics-adaptation/>Dynamics Adaptation</a>
+<a class="badge badge-light" href=/tag/dexterity/>Dexterity</a>
 </div>
 <div class=share-box aria-hidden=true>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://bennevans.github.io/publication/bam/&text=BAM:%20Bayes%20with%20Adaptive%20Memory" target=_blank rel=noopener class=share-btn-twitter>
+<a href="https://twitter.com/intent/tweet?url=https://bennevans.github.io/publication/tdex/&text=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation" target=_blank rel=noopener class=share-btn-twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://bennevans.github.io/publication/bam/&t=BAM:%20Bayes%20with%20Adaptive%20Memory" target=_blank rel=noopener class=share-btn-facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://bennevans.github.io/publication/tdex/&t=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation" target=_blank rel=noopener class=share-btn-facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=BAM:%20Bayes%20with%20Adaptive%20Memory&body=https://bennevans.github.io/publication/bam/" target=_blank rel=noopener class=share-btn-email>
+<a href="mailto:?subject=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation&body=https://bennevans.github.io/publication/tdex/" target=_blank rel=noopener class=share-btn-email>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://bennevans.github.io/publication/bam/&title=BAM:%20Bayes%20with%20Adaptive%20Memory" target=_blank rel=noopener class=share-btn-linkedin>
+<a href="https://www.linkedin.com/shareArticle?url=https://bennevans.github.io/publication/tdex/&title=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation" target=_blank rel=noopener class=share-btn-linkedin>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=BAM:%20Bayes%20with%20Adaptive%20Memory%20https://bennevans.github.io/publication/bam/" target=_blank rel=noopener class=share-btn-whatsapp>
+<a href="whatsapp://send?text=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation%20https://bennevans.github.io/publication/tdex/" target=_blank rel=noopener class=share-btn-whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://bennevans.github.io/publication/bam/&title=BAM:%20Bayes%20with%20Adaptive%20Memory" target=_blank rel=noopener class=share-btn-weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://bennevans.github.io/publication/tdex/&title=Context%20is%20Everything:%20Implicit%20Identification%20for%20Dynamics%20Adaptation" target=_blank rel=noopener class=share-btn-weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
@@ -235,12 +236,6 @@ Conference paper
 </li>
 </ul>
 </div>
-</div>
-<div class="article-widget content-widget-hr">
-<h3>Related</h3>
-<ul>
-<li><a href=/publication/iida/>Context is Everything: Implicit Identification for Dynamics Adaptation</a></li>
-</ul>
 </div>
 </div>
 </div>
